@@ -689,6 +689,19 @@ wheels = [
 ]
 
 [[package]]
+name = "probabilistic-library"
+version = "26.1.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "matplotlib" },
+    { name = "numpy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/7c/2b/a50f2fff4d087e6d37aaf3a496e62bacb31e35fc438ef603e9574497e3d1/probabilistic_library-26.1.1.tar.gz", hash = "sha256:bbfd2a51962721b6eb88c9b4884541ea2cc90def92c39150e4ba40af4165e070", size = 3595731, upload-time = "2026-01-26T12:03:03.951Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/5c/b3/cbeaba86424d1220cabbd7c43fb25533914dc83127a2bc37022247219659/probabilistic_library-26.1.1-py3-none-any.whl", hash = "sha256:e9a8c9e46dcd410799d12c490472ec3eb2846587d493137d544eb9db0623bfdf", size = 3645811, upload-time = "2026-01-26T12:03:01.537Z" },
+]
+
+[[package]]
 name = "prompt-toolkit"
 version = "3.0.52"
 source = { registry = "https://pypi.org/simple" }
@@ -888,6 +901,7 @@ dependencies = [
     { name = "matplotlib" },
     { name = "numpy" },
     { name = "openturns" },
+    { name = "probabilistic-library" },
 ]
 
 [package.metadata]
@@ -896,6 +910,7 @@ requires-dist = [
     { name = "matplotlib", specifier = ">=3.10.8" },
     { name = "numpy", specifier = ">=2.4.2" },
     { name = "openturns", specifier = ">=1.26" },
+    { name = "probabilistic-library", specifier = ">=26.1.1" },
 ]
 
 [[package]]
