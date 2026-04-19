@@ -9,5 +9,6 @@ dependencies = [
     "matplotlib>=3.10.8",
     "numpy>=2.4.2",
     "openturns>=1.26",
+    "pandas>=3.0.2",
     "probabilistic-library>=26.1.1",
 ]
