@@ -12,3 +12,12 @@ dependencies = [
     "pandas>=3.0.2",
     "probabilistic-library>=26.1.1",
 ]
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["win-64", "linux-64"]
+
+[tool.pixi.pypi-dependencies]
+verkenning-komberging = { path = ".", editable = true }
+
+[tool.pixi.tasks]
